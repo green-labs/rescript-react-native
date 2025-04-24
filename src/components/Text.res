@@ -47,6 +47,7 @@ type props = {
   nativeID?: string,
   onLayout?: Event.layoutEvent => unit,
   style?: Style.t,
+  className?: string,
   testID?: string,
   children?: React.element,
   // text props

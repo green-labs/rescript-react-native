@@ -8,6 +8,7 @@ type props = {
   onHideUnderlay?: unit => unit,
   onShowUnderlay?: unit => unit,
   style?: Style.t,
+  className?: string,
   tvParallaxProperties?: TV.parallax,
   underlayColor?: string,
 }

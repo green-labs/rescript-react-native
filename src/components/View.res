@@ -111,6 +111,7 @@ type coreProps = {
   pointerEvents?: pointerEvents,
   removeClippedSubviews?: bool,
   style?: Style.t,
+  className?: string,
   testID?: string,
   children?: React.element,
 }

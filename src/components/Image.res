@@ -114,6 +114,7 @@ type props = {
   source: Source.t,
   srcSet?: string,
   style?: Style.t,
+  className?: string,
   testID?: string,
   tintColor?: Color.t,
   width?: float,
